@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: 'class',
   content: [
@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: { colors: {
-      // Customize any colors you need for dark mode
+
       darkBackground: '#1a202c',
       darkText: '#e2e8f0',
     },},
