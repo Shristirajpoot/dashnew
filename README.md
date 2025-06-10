@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# 🌐 Translation Dashboard ✨  
+> A sleek and responsive web application for managing multilingual content efficiently!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub Repo stars](https://img.shields.io/github/stars/Shristirajpoot/dashnew?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shristirajpoot/dashnew?color=brightgreen)
+![Made with](https://img.shields.io/badge/Made%20with-React%20%2B%20MongoDB-blue)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Demo
 
-### `npm start`
+🎥 **Video Walkthrough:** [Watch on YouTube](https://youtu.be/1uEAXN7Kfms)  
+🔗 **Repository:** [Shristirajpoot/dashnew](https://github.com/Shristirajpoot/dashnew)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📚 About The Project
 
-### `npm test`
+The **Translation Dashboard** is a full-stack web app designed to manage text translations across multiple languages in one place. It enables effortless editing, real-time updates, and organized multilingual content management for teams and developers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🔐 User authentication (login/register)
+- 🌍 Add/Edit/Delete languages
+- 📝 Inline text string editor
+- 📊 Organized dashboard UI
+- 🔄 Real-time data handling
+- 💡 Fully responsive layout
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+| Frontend | Backend | Database |
+|----------|---------|----------|
+| React.js ⚛️ | Node.js 🚀 | MongoDB 🍃 |
+| Tailwind CSS 🎨 | Express.js 🌐 | Mongoose 🧩 |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
+```plaintext
+dashnew/
+├── public/                    # Static assets (favicon, etc.)
+│
+├── src/                       # Main source folder
+│   ├── components/            # Reusable UI components
+│   ├── pages/                 # Main page routes (dashboard, login, etc.)
+│   ├── utils/                 # API helpers and utility functions
+│   └── App.jsx                # Root component
+│
+├── tailwind.config.js        # Tailwind CSS configuration
+├── package.json              # Project metadata and dependencies
+├── package-lock.json         # Exact dependency versions
+├── .gitignore                # Ignored files for Git
+├── README.md                 # Project documentation
+├── Screenshot*.png           # Uploaded screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧪 Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> Below are some UI snapshots of the dashboard in action:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Dashboard Overview | Graph List |
+|--------------------|----------------|
+| ![Dashboard 1](./Screenshot%202025-06-10%20163202.png) | ![Dashboard 2](./Screenshot%202025-06-10%20163213.png) |
 
-### Code Splitting
+| Dashboard in Dark Mode | Pie Chart |
+|------------------|--------------|
+| ![Editor](./Screenshot%202025-06-10%20163226.png) | ![Add Language](./Screenshot%202025-06-10%20163237.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Bar Chart | Line Chart |
+|------------------|----------------|
+| ![Delete](./Screenshot%202025-06-10%20163241.png) | ![Strings](./Screenshot%202025-06-10%20163249.png) |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Getting Started
 
-### Making a Progressive Web App
+### ✅ Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Node.js
+- npm or yarn
+- MongoDB installed and running
 
-### Advanced Configuration
+### 📥 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git clone https://github.com/Shristirajpoot/dashnew.git
+cd dashnew
+npm install
+▶️ Run the Application
 
-### Deployment
+npm run dev
+Then open your browser at: http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👩‍💻 Author
+###  Shristi Rajpoot
+- 📧 Email: shristirajpoot369@gmail.com
+- 🔗 GitHub: @Shristirajpoot
 
-### `npm run build` fails to minify
+## 💬 Acknowledgements
+- React Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Tailwind CSS Docs
+
+- MongoDB & Mongoose Docs
+
+- Node.js & Express Guides
+
+## 📄 License
+Licensed under the MIT License.
+
+# ⭐ If you found this project helpful, please consider giving it a star on GitHub!
